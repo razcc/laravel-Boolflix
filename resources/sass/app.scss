@@ -1,0 +1,25 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Profili
+@import './profiliBoolflix/profili';
+
+.dark_opacity{
+    background-color: rgba(0, 0, 0, 0.87);
+
+}
+.bg_image_custom{
+    background-image: url(../images/sfondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo{
+    width: 15%;
+}
